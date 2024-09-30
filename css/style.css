@@ -1,0 +1,28 @@
+body{
+    font-family: "Macondo";
+    background-color: #6C437F;
+    color: #0EB2E6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Shadows Into Light";
+    font-size: 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #8F00D1;
+    padding: 10px;
+}
+
+#hero img {
+    width: 300px;
+}
+
+#bio {
+    text-align: center;
+}
