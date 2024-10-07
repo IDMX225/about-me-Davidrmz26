@@ -53,3 +53,31 @@ header {
 #gallery figure {
     text-align: left;
 }
+
+/* Literature */
+#lit {
+    border: 2px solid #008B8B;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+}
+
+/* Dropcaps */
+
+#lit div p:first-letter {
+
+    color: #800000;
+    float: left;
+    font-size: 2rem;
+    padding: 3rem;
+    margin-right: .15rem;
+    line-height: .60;
+}
