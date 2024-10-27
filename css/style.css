@@ -61,21 +61,28 @@ header {
 }
 
 /* Video */
+#pre-video {
+    background-color: #008B8B;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 #video {
-    text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
     position: relative;
-    border: 2px #5F9EA0 dashed;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
     background-color: #008B8B;
 }
 
 #video iframe {
+    position: absolute;
     left: 0px;
     right: 0px;
-    bottom: 0px;
     top: 0px;
-    border: 3px #5F9EA0 dashed;
+    bottom: 0px;
+    height: 100%;
+    width: 100%
 }
 
 /* Literature */
@@ -124,7 +131,7 @@ header {
         max-width: 100%;
         columns: 20rem;
     }
-}
+
 
 /* large screen size */ 
 
