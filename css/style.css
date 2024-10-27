@@ -60,6 +60,24 @@ header {
     text-align: center;
 }
 
+/* Video */
+#video {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    position: relative;
+    border: 2px #5F9EA0 dashed;
+    background-color: #008B8B;
+}
+
+#video iframe {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    border: 3px #5F9EA0 dashed;
+}
+
 /* Literature */
 #lit {
     border: 2px solid #008B8B;
