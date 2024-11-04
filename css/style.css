@@ -1,7 +1,7 @@
 body{
     font-family: "Macondo";
-    background-color: #5F9EA0;
-    color: #000000;
+    background-color: #3CA69B;
+    color: #3C322E
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,8 +18,15 @@ header {
 
 #hero, footer {
     text-align: center;
-    background-color: #008B8B;
+    background-color: #19E6D1;
     padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3C322E;
+    color: #E64A01;
 }
 
 /* Hero Section */
@@ -43,13 +50,13 @@ header {
 }
 
 #hobbies ul li:nth-child(odd) {
-    color: #800000;
+    color: #E64A01;
 }
 
 /* Gallery */
 
 #gallery {
-    border: 2px solid #008B8B;
+    border: 2px solid #3CA69B;
 }
 
 #gallery img {
@@ -62,7 +69,7 @@ header {
 
 /* Video */
 #pre-video {
-    background-color: #008B8B;
+    background-color: #19E6D1;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -72,7 +79,7 @@ header {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0px;
-    background-color: #008B8B;
+    background-color: #19E6D1;
 }
 
 #video iframe {
@@ -87,7 +94,7 @@ header {
 
 /* Literature */
 #lit {
-    border: 2px solid #008B8B;
+    border: 2px solid #3CA69B;
     margin-bottom: 2rem;
 }
 
@@ -131,7 +138,7 @@ header {
         max-width: 100%;
         columns: 20rem;
     }
-
+}
 
 /* large screen size */ 
 
@@ -154,4 +161,10 @@ header {
     figure {
         display: block;
     }
+}
+
+/* Contact Form */
+
+#formElements {
+    display:grid;
 }
