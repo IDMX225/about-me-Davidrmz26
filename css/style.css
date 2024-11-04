@@ -113,7 +113,7 @@ footer {
 
 #lit div p:first-letter {
 
-    color: #800000;
+    color: #E64A01;
     float: left;
     font-size: 2rem;
     line-height: .60;
@@ -167,4 +167,47 @@ footer {
 
 #formElements {
     display:grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+fieldset {
+    border: 2px solid #3C322E;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    border: 2px dashed #E64A01;
+    background-color: #3C322E;
+    color: #E64A01;
+    padding: 0.5em;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin:1rem;
+}
+
+#contact button {
+    background-color: #3C322E;
+    color: #E64A01;
+    border: 2px dashed #E64A01;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
