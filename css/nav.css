@@ -65,7 +65,7 @@ main {
 
 .navbar-links a {
     color: #E64A01;
-    background-attachment: #3C322E;
+    background-color: #3C322E;
     font-size: 1.3rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -73,7 +73,13 @@ main {
     display: inline-block;
 }
 
-
+.navbar-links a:hover,
+.navbar-links a:focus {
+    color: #3C322E;
+    background-color: #E64A01;
+    border-radius: 10px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
