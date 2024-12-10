@@ -24,5 +24,8 @@ Skills learned in each section while working on my final project.
 
 * A navigation bar
 
+* How to do a hamburger icon menu
+My hamburger icon menu was inspired by the tutorial from: https://www.youtube.com/watch?v=SIzi9z8mrTk done by Angela Design. 
+To create the close and menu elements shapes I used the code given by her at: https://codepen.io/angeladelise/pen/poErPMY
 
 

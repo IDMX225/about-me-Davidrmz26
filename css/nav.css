@@ -21,16 +21,91 @@ main {
     padding: 2vw;
 }
 
-/* navbar */
+/* nav2 */
 
-.navbar {
+.nav{
     background-color: #3C322E;;
     color: #E64A01;
-    display: flex;
-    flex-direction: column;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__toggle{
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right:0;
+}
+
+svg{
+    width:1.5rem;
+    fill: #E64A01;
+}
+
+.close{
+    display: none;
+}
+
+.menu{
+    margin-top: 0.2rem;
+}
+
+.nav__checkbox{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
+
+/* navigation list */
+
+.nav li {
+    list-style: none;
+    display: none;
+    padding: 0.5em 0;
+}
+
+.nav li:first-child{
+    margin-right: auto;
+    display: block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+}
+
+.nav a {
+    color: #E64A01;
+    background-color: #3C322E;
+    font-size: 1.5rem;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #3C322E;
+    background-color: #E64A01;
+    border-radius: 10px;
+    outline: none;
 }
 
 /* logo */
@@ -49,55 +124,34 @@ main {
     font-size: 1.2em;
 }
 
-/* navigation list */
-
-.navbar-links li {
-    list-style: none;
+.nav__checkbox:checked ~ ul.nav__menu li {
     display: block;
-    padding: 0.5em 0;
+
+
 }
 
-
-
-/*  
- style all a tags in header 
- and then on hover
-*/
-
-.navbar-links a {
-    color: #E64A01;
-    background-color: #3C322E;
-    font-size: 1.5rem;
-    padding: 1rem 1.25rem;
-    letter-spacing: 2px;
-    text-decoration: none;
-    display: inline-block;
+.nav__checkbox:checked ~ label.nav__toggle .close{
+    display: block;
 }
 
-.navbar-links a:hover,
-.navbar-links a:focus {
-    color: #3C322E;
-    background-color: #E64A01;
-    border-radius: 10px;
-    outline: none;
+.nav__checkbox:checked ~ label.nav__toggle .menu{
+    display: none;
 }
 
 /* 
-media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
+Desktop view 
 */
 
-@media screen and (min-width: 60rem) {
-    
-    .navbar {
+@media only screen and (min-width:560px){
+    .nav__toggle{
+        display: none;
+    }
+
+    .nav__menu{
         flex-direction: row;
-        justify-content: space-between;
-    }
 
-    .navbar ul {
-        display: flex;
-        justify-content: space-between;
+        li{
+            display: block;
+        }
     }
-
 }
