@@ -28,4 +28,18 @@ Skills learned in each section while working on my final project.
 My hamburger icon menu was inspired by the tutorial from: https://www.youtube.com/watch?v=SIzi9z8mrTk done by Angela Design. 
 To create the close and menu elements shapes I used the code given by her at: https://codepen.io/angeladelise/pen/poErPMY
 
+* Blog
+My blog topic consited of investigating image hover effects.
+My first effect was to blur an image, I researched from the website Brandsmen Marketing Agency at 
+https://thebrandsmen.com/css-image-hover-effects/ . There were some interesting tutorials there, I chose the blur
+effect since it was the one I found most interesting.
 
+My second effect was to do a shake animation for an image, I researched from the website w3schools at:
+https://www.w3schools.com/howto/howto_css_shake_image.asp . There were lot of interesting tutorials to see there
+while I was clicking through next and previous, I chose animation since is something that I want to investigate further 
+in the future.
+
+My third effect was change the visual shape of an image, to get rid of the borders, in this case my image was a square
+ and I turned it into a circle. I researched from the website Foo Plugins at: https://fooplugins.com/thumbnail-hover-effect/ .
+
+ 
