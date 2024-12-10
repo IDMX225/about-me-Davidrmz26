@@ -22,7 +22,7 @@
     <!--the body element contains all content shown to a visitor-->
 
     <header>   
-        <!-- the header shows logo and page title -->     
+        <!-- the header shows logo, navigation and page title -->     
         <nav class="nav">
 
             <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
@@ -165,7 +165,16 @@
                         it has to be more complex. Changing its quality it's just one of the many features that can affect an image,  
                         there are also various guides to change its color, adding various filters to make the image look better.
                     </p>
-                    <img src="img/drawing.jpg" alt="Blur image">    
+                    
+                    <img src="img/drawing.jpg" alt="Blur image">  
+                    
+                    <p>
+                        CSS Code:<br>
+                        #blur div img:hover{<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;filter: blur(7px);<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;transition: 7s ease;<br>
+                        }
+                    </p>
                 </div>
             </section>
 
@@ -184,7 +193,32 @@
                         one was the largest, I would say is the simplest since the code behind it focuses on changing the image 
                         position and degree of displacement, which is a basic for online animation. 
                     </p>
+                    
                     <img src="img/drawing.jpg" alt="Shake image"> 
+                    <p>
+                        CSS Code:<br>
+                        #shake div img:hover {<br>
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;animation: shake 0.4s;,<br>
+                          
+                            &nbsp;&nbsp;&nbsp;&nbsp;animation-iteration-count: infinite;<br>
+                        }<br>
+                          
+                          @keyframes shake {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;0% { transform: translate(1px, 1px) rotate(0deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;10% { transform: translate(-2px, -3px) rotate(-4deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;20% { transform: translate(-3px, 0px) rotate(3deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;30% { transform: translate(3px, 2px) rotate(0deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;40% { transform: translate(1px, -1px) rotate(3deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;50% { transform: translate(-1px, 2px) rotate(-4deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;60% { transform: translate(-3px, 1px) rotate(0deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;70% { transform: translate(3px, 1px) rotate(-4deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;80% { transform: translate(-1px, -1px) rotate(3deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;90% { transform: translate(1px, 2px) rotate(0deg); }<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;100% { transform: translate(2px, -3px) rotate(-4deg); }<br>
+                          }
+                        
+                    </p>
                 </div>
             </section>
 
@@ -200,7 +234,24 @@
                         for example, changing it to a difficult shape such as star, or in this image's case, a shark's shape could be  
                         interesting to attempt.               
                     </p>
+                    
                     <img src="img/drawing.jpg" alt="Circle image">  
+
+                    <p>
+                        CSS Code:<br>
+                        #circle div img{<br>
+
+
+                            &nbsp;&nbsp;&nbsp;&nbsp;transition: border-radius 0.7s ease;<br>
+                        
+                        }<br>
+                        
+                        #circle div img:hover {<br>
+                        
+                            &nbsp;&nbsp;&nbsp;&nbsp;border-radius: 40%;<br>
+                        
+                        }
+                    </p>
                 </div>
             </section>
 

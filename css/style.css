@@ -1,3 +1,4 @@
+/* changing the values of text and setting up the background color*/
 body{
     font-family: "Macondo";
     background-color: #3CA69B;
@@ -21,6 +22,7 @@ header {
     font-size: 29px;
 }
 
+/* Styling the footer */
 #hero, footer {
     text-align: center;
     background-color: #19E6D1;
@@ -128,6 +130,7 @@ footer {
     transition: 7s ease; 
 }
 
+/* Shake image effect */
 #shake div img:hover {
 
     animation: shake 0.4s;
@@ -149,6 +152,7 @@ footer {
     100% { transform: translate(2px, -3px) rotate(-4deg); }
   }
 
+/* Transform image effect*/
 #circle div img{
 
 
