@@ -24,6 +24,20 @@ Skills learned in each section while working on my final project.
 
 * A navigation bar
 
+* Using contrasting color pallette
+Background turquoise #3CA69B
+Brown for text, footer, and navbar #3C322E
+Strong orange to contrast with the brown #E64A01
+Lighter turquoise to invert with the background #19E6D1
+
+* Creating a logo
+To create my own at fifma.com , I went beyond just using the initials for my first and last name. I wanted to include all of 
+my four initials for first, middle, and both of my last names. I made my first name initial bigger, then a lowercase e 
+for the middle, and my two last name initials R and M connecting with each other. 
+I chose the colors to blend in with my navigation color palette, the letters are distributed with ones having an orange fill 
+and brown outline, and the other having brown fill and orange outline, you can observe it in my website if you point at my 
+logo thanks to an special effect to invert the background color.
+
 * How to do a hamburger icon menu
 My hamburger icon menu was inspired by the tutorial from: https://www.youtube.com/watch?v=SIzi9z8mrTk done by Angela Design. 
 To create the close and menu elements shapes I used the code given by her at: https://codepen.io/angeladelise/pen/poErPMY
@@ -40,6 +54,6 @@ while I was clicking through next and previous, I chose animation since is somet
 in the future.
 
 My third effect was change the visual shape of an image, to get rid of the borders, in this case my image was a square
- and I turned it into a circle. I researched from the website Foo Plugins at: https://fooplugins.com/thumbnail-hover-effect/ .
+and I turned it into a circle. I researched from the website Foo Plugins at: https://fooplugins.com/thumbnail-hover-effect/ .
 
- 
+LICENSES (I wish to put license that my images and logo will not be using for other than just for the purpose of sharing my website).
