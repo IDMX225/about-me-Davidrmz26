@@ -99,6 +99,19 @@ footer {
     width: 100%
 }
 
+
+@media (min-width: 1024px){
+    #video {
+        padding-bottom: 40%; 
+    }
+
+    #video iframe {
+        height: 90%; 
+        width: 90%;  
+        margin: auto; 
+    }
+}
+
 /* Literature */
 #lit {
     width: 80%;
@@ -119,6 +132,7 @@ footer {
 }
 
 #lit div img {
+    max-width: 80%;
     height: fit-content;
     width: fit-content;
 }
@@ -196,7 +210,7 @@ footer {
 
 /* large screen size */ 
 
-@media screen and (min-width: 100em) {
+@media screen and (min-width: 50em) {
 
     #gallery {
         display: grid;
@@ -214,6 +228,17 @@ footer {
 
     figure {
         display: block;
+    }
+}
+
+@media (max-width: 768px) { 
+    #gallery img {
+        max-width: 90%; 
+        height: auto; 
+    }
+
+    #gallery figure {
+        margin: 0 auto; 
     }
 }
 

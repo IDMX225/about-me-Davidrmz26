@@ -21,7 +21,7 @@ main {
     padding: 2vw;
 }
 
-/* nav2 */
+/* hamburger icon navbar */
 
 .nav{
     background-color: #3C322E;;
@@ -122,6 +122,13 @@ svg{
 
 .logo h1 {
     font-size: 1.2em;
+}
+
+@media (max-width: 768px) { 
+    .logo img {
+        height: 24vw; 
+        width: 24vw;  
+    }
 }
 
 .nav__checkbox:checked ~ ul.nav__menu li {
